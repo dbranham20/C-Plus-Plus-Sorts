@@ -39,7 +39,10 @@ int main(int argArrSize, char* sorting[])
      ifstream readFile;
      readFile.open("/home/win.thackerw/271/sort.dat");
 	if(!readFile.is_open())
-		cout <<"File did not open!";
+	{
+		cout <<"File did not open!" << endl;
+                exit(0);
+        }
 
      cout << "STARTING FILE READ" << endl;
      readFile >> word;
