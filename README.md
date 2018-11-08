@@ -13,3 +13,14 @@ Where **X** is the amount of lines you want read and **Y** is one of the followi
 - '**QS**' for Quick Sort
 
 ## Sample Output of the Program:
+```$ ./a.out 500000 QS```  
+STARTING FILE READ  
+.  
+.  
+.  
+STARTING QUICK SORT  
+STARTING WRITE TO FILE  
+.  
+.  
+.  
+FINISHED  
